@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: inline-block;
+    margin-left: 42px;
+}
+
+#tudo {
+    height: 100vh;
+}
+
+#imagem-maneira {
+    display: inline-block;
+    margin: 163px 84.82px 0 121px;
+}
+
+#textos-da-direita {
+    display: inline-block;
+}
+
+.nav-link {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233D;
+    margin-right: 32px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.5
+}
+
+#sign-up {
+    margin-top: 32px;
+    padding: 14px 28px;
+    background: #6FBF44;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+}
+
+#sign-up:hover {
+    opacity: 0.8;
+}
+
+#sign-up:active {
+    opacity: 0.5;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+}
+
+p {
+    margin-top: 47px;
+    margin-bottom: 55px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    font-size: 18px;
+    height: 99px;
+}
+
+#learn-more {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6FBF44;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+
+    .nav-link {
+        display: none;
+    }
+
+    #sign-up {
+        border: none;
+        position: relative;
+        left: 80vw;
+        font-size: 12px;
+        padding: 7px 20px;
+        width: 91px;
+        height: 31px;
+    }
+
+    main {
+        position: relative;
+        align-items: center;
+        margin-left: 22vw;
+    }
+
+    h1 {
+        margin: 0 auto;
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 83px;
+        text-align: center;
+    }
+
+    body {
+        max-width: 390px;
+        max-height: 800px;
+        zoom: 0.85;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin-top: 29px;
+    }
+
+        #imagem-maneira {
+        margin: 0 0 0 0;
+        position : absolute;
+        top: 60vh;
+        width: 312px;
+        height: 288px;
+        margin-top: 0px;
+    }
+
+    #learn-more {
+        margin-left: 22vw;
+        margin-top: 26px;
+    }
+}   
