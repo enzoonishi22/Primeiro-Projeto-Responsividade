@@ -1,3 +1,3 @@
 <h1>Wide coverage location</h1>
 <br>
-<h2>Esse foi o projeto de um site que eu aprendi no <a href="https://rodolfomori.com.br/devclub">DevClub</a></h2>
+<h2>Esse foi o projeto de um site que eu aprendi no <a href="devclub.com.br">DevClub</a></h2>
